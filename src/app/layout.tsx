@@ -14,6 +14,11 @@ export const metadata: Metadata = {
     description: "Discover and share beautiful inspirational quotes. 200+ curated quotes across 6 categories.",
     type: "website",
   },
+  twitter: {
+    card: "summary_large_image",
+    title: "QuoteGen — Beautiful Inspirational Quotes",
+    description: "Discover and share beautiful inspirational quotes. 200+ curated quotes across 6 categories.",
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
